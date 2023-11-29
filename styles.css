@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.complaint {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.logout {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #d14836;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+.logout:hover {
+    background-color: #a04131;
+}
+
+/* Additional Styling for Specific Pages */
+
+/* Style for the index.php (Login Page) */
+h2,
+p {
+    text-align: center;
+}
+
+/* Style for the student_register.php (Student Registration Page) */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style for the student_complaint.php (Student Complaint Page) */
+textarea {
+    resize: vertical;
+}
+
+/* Style for the admin_page.php (Admin Page) */
+.admin-page {
+    text-align: center;
+}
+
+.complaint-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.complaint {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.complaint-id,
+.student-id,
+.complaint-text {
+    font-weight: bold;
+    color: #4285f4;
+}
+
+.status {
+    color: #0f9d58;
+}
+
+.created-at {
+    color: #555;
+}
